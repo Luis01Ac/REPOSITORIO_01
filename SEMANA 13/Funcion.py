@@ -15,7 +15,7 @@ def calcular_temperatura_promedio(ciudades, dias_semana, temperaturas):
 
     return promedios_semanales
 
-# Ejecucion usando los datos pdel anterior ejemplo
+# Utilizamos los datos del anterior ejemplo
 ciudades = ['Ambato', 'Latacunga', 'Quito', 'Riobamba']
 dias_semana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
 
@@ -46,7 +46,7 @@ temperaturas = [
     ]
 ]
 
-# Definimos la funcion para calcular y mostrar los promedios
+# Calculamos y mostramos los promedios
 promedios = calcular_temperatura_promedio(ciudades, dias_semana, temperaturas)
 
 print("\nPromedios de Temperatura por Ciudad y Semana:")
