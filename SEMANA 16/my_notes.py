@@ -5,7 +5,7 @@ filename = 'my_notes.txt'
 # Abrimos el archivo en modo escritura
 file = open(filename, 'w')  # 'w' nos indica que estamos abriendo el archivo para escribir
 # Escribimos notas personales en el archivo
-file.write("Revisar planos y detalles tecnicos.\n")  # Línea 1
+file.write("Revisar los planos y detalles tecnicos.\n")  # Línea 1
 file.write("Reunion con los diferentes tecnicos del proyecto.\n")       # Línea 2
 file.write("Actualizar el cronograma de los proyectos.\n")        # Línea 3
 file.write("Verificar el progreso de cada area del proyecto.\n")        # Línea 4
